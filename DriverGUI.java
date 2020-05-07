@@ -1,8 +1,6 @@
 import java.io.*;
 import java.awt.image.*;
 import java.awt.event.*;
-import javax.imageio.*;
-import java.awt.Color;
 import java.util.*;
 import javax.swing.*;
 
@@ -68,6 +66,7 @@ class DriverGUI extends SortImage{
         System.out.print("Enter Path Of Image:");
         Scanner sc = new Scanner(System.in);
         File image = new File(sc.nextLine());
+        sc.close();
         DriverGUI img = new DriverGUI(image);
         Pixel[] imageArray=img.imageProcess();
         int width = img.getWidth();

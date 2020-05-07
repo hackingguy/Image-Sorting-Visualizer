@@ -3,7 +3,6 @@ import java.awt.image.*;
 import javax.imageio.*;
 import java.awt.Color;
 import java.util.*;
-import javax.swing.*;
 
 class SortImage {
     Pixel[] imageArray;

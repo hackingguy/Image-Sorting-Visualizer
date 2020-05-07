@@ -1,8 +1,4 @@
-import java.io.*;
 import java.awt.image.*;
-import javax.imageio.*;
-import java.awt.Color;
-import java.util.*;
 import javax.swing.*;
 
 
@@ -20,10 +16,10 @@ abstract class GUI{
         this.width=width;
         this.height=height;
         this.imageArray = imageArray;
-        GUI();
+        makeGui();
     }
     
-    void GUI(){
+    void makeGui(){
         jf.setSize(width+200,height+200);
         updateGUI(0,100);
         background.setBounds(100,50,width,height);

@@ -13,7 +13,6 @@ class BubbleSort extends GUI implements Sort{
     
     public void Sort(){
         int n= width*height;
-        int percent=0;
 
         for(int i=0;i<n-2;i++){
 

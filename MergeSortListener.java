@@ -1,5 +1,4 @@
 import java.awt.event.*;
-import java.awt.*;
 
 class MergeSortListener implements ActionListener {
     Pixel[] imageArray;
