@@ -5,3 +5,4 @@ To Understand And Use Different Sorting Algorithms I made this Project Using Bas
 
 ![Pattern I Followed](https://github.com/hackingguy/Image-Sorting-Visualizer/blob/master/Relation%20Schema.png?raw=true)
 
+Thanks For Idea To [Shobhit Tewari](https://github.com/Candy-Tewari/)
